@@ -24,9 +24,9 @@ test:unit:
     - git fetch --tags origin
 
     # Prepare GO path
-    - mkdir -p /go/src/github.com/mendersoftware
-    - cp -r $CI_PROJECT_DIR /go/src/github.com/mendersoftware/openssl
-    - cd /go/src/github.com/mendersoftware/openssl
+    - mkdir -p /go/src/github.com/zhaot777
+    - cp -r $CI_PROJECT_DIR /go/src/github.com/zhaot777/openssl
+    - cd /go/src/github.com/zhaot777/openssl
 
     # Install code coverage / coveralls tooling
     - go get -u github.com/axw/gocov/gocov
